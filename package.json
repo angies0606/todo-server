@@ -2,14 +2,14 @@
   "name": "todo-server",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "json-server": "^0.17.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --port 8000"
+    "start": "node ./server.js"
   },
   "author": "Evgeniia Chaus",
   "license": "MIT"

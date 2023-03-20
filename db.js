@@ -1,0 +1,102 @@
+module.exports = () => {
+  return {
+    "todos": [
+      {
+        "title": "хлеб",
+        "isChecked": false,
+        "todoListId": 37,
+        "id": 1
+      },
+      {
+        "title": "молоко",
+        "isChecked": true,
+        "todoListId": 37,
+        "id": 2
+      },
+      {
+        "title": "овсянка",
+        "isChecked": false,
+        "todoListId": 37,
+        "id": 3
+      },
+      {
+        "title": "макароны",
+        "isChecked": true,
+        "todoListId": 37,
+        "id": 4
+      },
+      {
+        "title": "зеленый чай",
+        "isChecked": false,
+        "todoListId": 37,
+        "id": 5
+      },
+      {
+        "title": "прогулка",
+        "isChecked": false,
+        "todoListId": 38,
+        "id": 6
+      },
+      {
+        "title": "зарядка",
+        "isChecked": true,
+        "todoListId": 38,
+        "id": 7
+      },
+      {
+        "title": "полить цветы",
+        "isChecked": false,
+        "todoListId": 38,
+        "id": 8
+      },
+      {
+        "title": "чтение книги",
+        "isChecked": false,
+        "todoListId": 38,
+        "id": 9
+      }
+    ],
+    "todo-lists": [
+      {
+        "title": "Список покупок1",
+        "description": "что купить",
+        "createdAt": 1679071805768,
+        "todos": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          5
+        ],
+        "id": 37
+      },
+      {
+        "title": "Дела",
+        "description": "На выходные",
+        "createdAt": 1679073681217,
+        "todos": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "id": 38
+      },
+      {
+        "title": "еще один список",
+        "description": "",
+        "createdAt": 1679073767648,
+        "todos": [],
+        "id": 39
+      },
+      {
+        "title": "список",
+        "description": "",
+        "createdAt": 1679141847696,
+        "todos": [],
+        "id": 40
+      }
+    ]
+  }
+}
