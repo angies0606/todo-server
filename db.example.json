@@ -31,12 +31,6 @@
       "id": 5
     },
     {
-      "title": "прогулка",
-      "isChecked": false,
-      "todoListId": 38,
-      "id": 6
-    },
-    {
       "title": "зарядка",
       "isChecked": true,
       "todoListId": 38,
@@ -53,6 +47,12 @@
       "isChecked": false,
       "todoListId": 38,
       "id": 9
+    },
+    {
+      "title": "ghg",
+      "isChecked": false,
+      "todoListId": 38,
+      "id": 10
     }
   ],
   "todo-lists": [
@@ -75,10 +75,10 @@
       "description": "На выходные",
       "createdAt": 1679073681217,
       "todos": [
-        6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "id": 38
     },
